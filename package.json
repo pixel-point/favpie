@@ -1,0 +1,30 @@
+{
+  "name": "favpie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "favpie": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "npx eslint *.js",
+    "lint:fix": "npm run lint -- --fix",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.5.0",
+    "sharp": "^0.31.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.4",
+    "prettier": "^2.8.2"
+  }
+}
