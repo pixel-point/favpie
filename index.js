@@ -62,7 +62,7 @@ const sizes = [
 program
   .name('favicon-generator')
   .description('Get favicon files from a jpg or png and piece of CSS to embed them in your HTML')
-  .argument('<file>', '*.png, *.jpg, image file')
+  .argument('<file>', '*.png, *.jpg, *.jpeg image file')
   .option('-o, --output <directory>', 'output directory')
   // Add an option for app name -ap --app-name <name>
   .option('-ap, --app-name <name>', 'Your App Name')
