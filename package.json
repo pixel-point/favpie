@@ -26,5 +26,9 @@
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-import": "^2.27.4",
     "prettier": "^2.8.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:pixel-point/favpie.git"
   }
 }
