@@ -139,9 +139,9 @@ program
       //  If rel is icon, then add type="image/png" or type="image/jpeg" based on the input file
 
       if (rel === 'icon') {
-        css.push(`<link rel="${rel}" type="image/${ext.slice(1)}" href="/${name}${ext}">`);
+        css.push(`<link rel="${rel}" type="image/${ext.slice(1)}" href="/${name}${ext}" />`);
       } else {
-        css.push(`<link rel="${rel}" sizes="${width}x${height}" href="/${name}${ext}">`);
+        css.push(`<link rel="${rel}" sizes="${width}x${height}" href="/${name}${ext}" />`);
       }
     });
 
@@ -169,7 +169,7 @@ program
 
     // Add manifest link to the CSS
 
-    css.push(`<link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous">`);
+    css.push(`<link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous" />`);
 
     console.log(css.join('\n'));
   });
